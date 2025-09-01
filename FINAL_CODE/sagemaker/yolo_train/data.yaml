@@ -1,0 +1,6 @@
+path: .
+train: train/images
+val: valid/images
+
+nc: 6
+names: ['1. Enfeksiyonel', '2. Ekzama', '3. Akne', '4. Pigment', '5. Benign', '6. Malign']
