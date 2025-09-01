@@ -27,7 +27,7 @@ YOLOv8을 기반으로 피부 병변을 탐지하고, EfficientNet B4 모델로 
 ---
 
 ## 💻 데모 / 시연
-- **웹사이트**: [서비스 링크](https://d1lqrqkz5ky8at.cloudfront.net)  
+- **웹사이트**: [서비스 링크](https://d1lqrqkz5ky8at.cloudfront.net)  (9월 3일까지 서비스 운영)
 - **시연 영상**: *(추후 추가 예정)*  
  
 ---
@@ -76,5 +76,5 @@ YOLOv8을 기반으로 피부 병변을 탐지하고, EfficientNet B4 모델로 
 - **교육/연구 목적**: 의료 인공지능 학습 및 실험 자료 활용  
 ---
 ## 📜 라이선스
-All rights reserved © 2025 [Your Name or Team Name].  
+All rights reserved © 2025 say_1_capybara.  
 이 저장소의 소스코드와 자료는 무단 복제, 수정, 배포, 사용을 금지합니다.
