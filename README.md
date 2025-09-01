@@ -1,23 +1,35 @@
 # 닥터 스팟 (Dr. Spot) 🔬👨‍⚕️
-### AI 기반 피부 병변 탐지 및 분류 웹 서비스  
+## AI 기반 피부 병변 탐지 및 분류 웹 서비스  
 YOLO 탐지 + EfficientNet 분류 + LLM 챗봇을 포함한 피부 병변 분석 웹 서비스  
-**배포 스택:** Amazon ECR · ECS Fargate · S3 · CloudFront · Lambda(Bedrock) · SageMaker
+**배포 스택:** Amazon ECR · ECS Fargate · S3 · CloudFront · Lambda(Bedrock) · SageMaker  
+
 ---
+
 ## 📌 프로젝트 개요
-### 닥터 스팟은 사용자가 업로드한 피부 이미지를 AI 모델이 분석하여 **병변 위치 탐지**와 **종류 분류**를 동시에 수행하는 웹 서비스다.  
-YOLOv8을 기반으로 피부 병변을 탐지하고, EfficientNet B4 모델로 해당 병변을 분류한다. 또한, AWS Bedrock 기반 LLM을 연동하여 **실시간 상담 챗봇** 기능을 제공한다.  
-이 시스템은 의료 접근성이 떨어지는 환경에서도 **자가 진단 보조**와 **의료 상담 전 초기 판단**에 도움을 줄 수 있다.
+닥터 스팟은 사용자가 업로드한 피부 이미지를 AI 모델이 분석하여  
+**병변 위치 탐지**와 **종류 분류**를 동시에 수행하는 웹 서비스다.  
+
+YOLOv8을 기반으로 피부 병변을 탐지하고, EfficientNet B4 모델로 해당 병변을 분류한다.  
+또한, AWS Bedrock 기반 LLM을 연동하여 **실시간 상담 챗봇** 기능을 제공한다.  
+
+이 시스템은 의료 접근성이 떨어지는 환경에서도  
+**자가 진단 보조**와 **의료 상담 전 초기 판단**에 도움을 줄 수 있다.  
+
 ---
+
 ## 🚀 주요 기능
 - **YOLOv8 기반 병변 탐지**: 업로드된 이미지에서 병변 위치를 자동 탐지  
 - **EfficientNet B4 기반 분류**: 탐지된 병변을 6개 질환 클래스로 분류  
 - **LLM 기반 챗봇 상담**: AWS Bedrock + Lambda + Knowledge Base를 통한 맞춤형 상담  
 - **웹 서비스 제공**: Streamlit UI를 통해 사용자가 쉽게 접근 가능  
 - **전처리 강화**: CLAHE, 감마 보정, Bilateral Filter 등으로 이미지 품질 개선  
+
 ---
+
 ## 💻 데모 / 시연
-- 웹사이트: (https://d1lqrqkz5ky8at.cloudfront.net)  
-- 시연 영상: *(추후 추가 예정)*  
+- **웹사이트**: [서비스 링크](https://d1lqrqkz5ky8at.cloudfront.net)  
+- **시연 영상**: *(추후 추가 예정)*  
+ 
 ---
 ## 📂 프로젝트 구조
 ```
