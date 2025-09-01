@@ -20,26 +20,26 @@ YOLOv8을 기반으로 피부 병변을 탐지하고, EfficientNet B4 모델로 
 - 시연 영상: *(추후 추가 예정)*  
 ---
 ## 📂 프로젝트 구조
+
 ├── FINAL_CODE/
 ├── preprocessing/
-│ ├── brightness.ipynb
-│ ├── data balance - leakplt.ipynb
-│ └── data imbalance- dataleak.ipynb
+│   ├── brightness.ipynb
+│   ├── data balance - leakplt.ipynb
+│   └── data imbalance- dataleak.ipynb
 ├── sagemaker/
-│ ├── model_endpoint
-│ ├── model_run
-│ ├── model_train
-│ ├── yolo_endpoint
-│ ├── yolo_inference
-│ └── yolo_train
+│   ├── model_endpoint
+│   ├── model_run
+│   ├── model_train
+│   ├── yolo_endpoint
+│   ├── yolo_inference
+│   └── yolo_train
 ├── streamlit deploy/
-│ ├── app.py
-│ ├── Dockerfile
-│ ├── new-task-def.json
-│ ├── requirements.txt
-│ └── task-definition.json
+│   ├── app.py
+│   ├── Dockerfile
+│   ├── new-task-def.json
+│   ├── requirements.txt
+│   └── task-definition.json
 └── README.md
----
 ## ⚙️ 환경 변수 설정
 `.env` 또는 배포 Task 정의에 따라 환경 변수를 설정해야 한다:
 - `ENDPOINT_NAME` : SageMaker 분류 모델 엔드포인트 이름  
