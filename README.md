@@ -30,8 +30,7 @@ YOLOv8을 기반으로 피부 병변을 탐지하고, EfficientNet B4 모델로 
 - **웹사이트**: [서비스 링크](https://d1lqrqkz5ky8at.cloudfront.net)  (9월 3일까지 서비스 운영)
 - **시연 영상** (1분 42초): [⬇ 고화질 다운로드 (1080p · 81MB)](https://github.com/minfy0-0/say_capybara/raw/main/assets/demo/Dr.spot_demo.mp4)  
 
-<!-- 미리보기 영상 자리: 아래 GIF 줄을 지우고 이 자리에 Dr.spot_demo_preview.mp4 를 끌어다 놓기 -->
-<a href="https://github.com/minfy0-0/say_capybara/raw/main/assets/demo/Dr.spot_demo.mp4"><img src="assets/demo/preview.gif" alt="Dr. Spot 시연 영상 미리보기" width="720"></a>
+https://github.com/user-attachments/assets/078d2cca-77e5-448e-bcdb-707edb18ffc2
 
 > 이미지 업로드 → 전처리 → YOLOv8 병변 탐지 → EfficientNet-B4 분류 → 결과 · AI 상담 · 질환 정보 · 진단 기록까지 전체 흐름을 담은 시연 영상입니다.  
  
